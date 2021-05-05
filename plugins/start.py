@@ -7,6 +7,6 @@ async def start(client, message):
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Channel", url="https://t.me/TeluguBots")]
     ])
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\n\nThis is <b>Youtube Downloader Bot</b>\n\n/help - For more info"
+    welcomed = f"Hey {message.from_user.first_name}\n\nThis is Youtube Downloader 📽\n\nHit 👉 /help"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
