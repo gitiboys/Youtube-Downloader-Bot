@@ -7,5 +7,5 @@ async def start(client, message):
     await message.reply_text(helptxt)
 @Client.on_message(Filters.command(["contact"]))
 async def start(client, message):
-    helptxt = f"<code>Send your feedback through</code> @de5tr0yer_bot"
-    await message.reply_text(helptxt)    
+    contxt = f"<code>Send your feedback through</code> @de5tr0yer_bot"
+    await message.reply_text(contxt)    
